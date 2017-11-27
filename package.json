@@ -1,0 +1,22 @@
+{
+  "name": "doorprize",
+  "version": "1.0.0",
+  "description": "doorprize apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burhanmubarok/reactDoorPrize.git"
+  },
+  "keywords": [
+    "doorprize"
+  ],
+  "author": "@burhanmubarok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burhanmubarok/reactDoorPrize/issues"
+  },
+  "homepage": "https://github.com/burhanmubarok/reactDoorPrize#readme"
+}
