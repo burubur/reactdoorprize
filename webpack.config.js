@@ -7,6 +7,7 @@ const config = {
     path: __dirname + '/dist',
     filename: 'bundle.js'
   },
+  devtool: 'inline-source-map',
   plugins: [
     new HtmlPlugin({
       title: 'Doorprize',
