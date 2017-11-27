@@ -8,7 +8,8 @@ const config = {
   },
   plugins: [
     new HtmlPlugin({
-      title: 'Doorprize'
+      title: 'Doorprize',
+      hash: true
     })
   ]
 }
