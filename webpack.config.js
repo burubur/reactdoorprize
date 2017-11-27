@@ -1,6 +1,7 @@
 const Webpack = require('webpack');
 const HtmlPlugin = require('html-webpack-plugin')
 const DistCleaner = require('clean-webpack-plugin')
+const Uglify = require('uglifyjs-webpack-plugin');
 
 const config = {
   entry: './src/index.js',
@@ -23,7 +24,8 @@ const config = {
       template: __dirname + '/src/template.ejs'
     }),
     new DistCleaner(['dist']),
-    new Webpack.HotModuleReplacementPlugin()
+    new Webpack.HotModuleReplacementPlugin(),
+    new Uglify()
   ]
 }
 
