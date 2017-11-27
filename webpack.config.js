@@ -1,4 +1,5 @@
 const HtmlPlugin = require('html-webpack-plugin')
+const DistCleaner = require('clean-webpack-plugin')
 
 const config = {
   entry: './src/index.js',
@@ -14,7 +15,8 @@ const config = {
         collapseWhitespace: true
       },
       template: __dirname + '/src/template.ejs'
-    })
+    }),
+    new DistCleaner(['dist'])
   ]
 }
 
