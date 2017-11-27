@@ -8,6 +8,9 @@ const config = {
     filename: 'bundle.js'
   },
   devtool: 'inline-source-map',
+  devServer: {
+    contentBase: './dist'
+  },
   plugins: [
     new HtmlPlugin({
       title: 'Doorprize',
