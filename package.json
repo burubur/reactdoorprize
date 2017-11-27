@@ -4,7 +4,8 @@
   "description": "doorprize apps",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build-dev": "./node_modules/.bin/webpack -d --progress"
   },
   "repository": {
     "type": "git",
