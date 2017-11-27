@@ -9,7 +9,10 @@ const config = {
   plugins: [
     new HtmlPlugin({
       title: 'Doorprize',
-      hash: true
+      hash: true,
+      minify: {
+        collapseWhitespace: true
+      }
     })
   ]
 }
