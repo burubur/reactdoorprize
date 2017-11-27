@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/burhanmubarok/reactDoorPrize/issues"
   },
-  "homepage": "https://github.com/burhanmubarok/reactDoorPrize#readme"
+  "homepage": "https://github.com/burhanmubarok/reactDoorPrize#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
 }
