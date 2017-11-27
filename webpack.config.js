@@ -1,3 +1,4 @@
+const Webpack = require('webpack');
 const HtmlPlugin = require('html-webpack-plugin')
 const DistCleaner = require('clean-webpack-plugin')
 
@@ -9,7 +10,8 @@ const config = {
   },
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: './dist'
+    contentBase: './dist',
+    hot: true
   },
   plugins: [
     new HtmlPlugin({
@@ -20,7 +22,8 @@ const config = {
       },
       template: __dirname + '/src/template.ejs'
     }),
-    new DistCleaner(['dist'])
+    new DistCleaner(['dist']),
+    new Webpack.HotModuleReplacementPlugin()
   ]
 }
 
