@@ -12,7 +12,8 @@ const config = {
       hash: true,
       minify: {
         collapseWhitespace: true
-      }
+      },
+      template: __dirname + '/src/template.ejs'
     })
   ]
 }
