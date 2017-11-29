@@ -2,4 +2,4 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/app'
 
-ReactDOM.render(null, document.querySelector('#root'))
+ReactDOM.render(<App />, document.querySelector('#root'))

@@ -18,7 +18,15 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.js$/, include: /src/, loader: "babel-loader" }
+      {
+        test: /\.js$/,
+        include: /src/,
+        loader: "babel-loader",
+        query:
+        {
+          presets:['react']
+        }
+      }
     ]
   }
 };
