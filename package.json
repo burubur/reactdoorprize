@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/burhanmubarok/reactDoorPrize.git"
+    "url": "git+https://github.com/burhanmubarok/reactdoorprize.git"
   },
   "keywords": [
     "doorprize"
@@ -19,9 +19,9 @@
   "author": "@burhanmubarok",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/burhanmubarok/reactDoorPrize/issues"
+    "url": "https://github.com/burhanmubarok/reactdoorprize/issues"
   },
-  "homepage": "https://github.com/burhanmubarok/reactDoorPrize#readme",
+  "homepage": "https://github.com/burhanmubarok/reactdoorprize#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
